@@ -229,7 +229,7 @@ var config_data = `{
         "choices": {
           "f": "Fast<br>",
           "a": "Average<br>",
-          "s": "Slow<br>",
+          "s": "Slow<br>"
         },
         "defaultValue": "a"
       }
