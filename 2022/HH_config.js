@@ -91,9 +91,19 @@ var config_data = `{
         "title": "Uppoer Cargo Scored",
         "type": "counter"
       },
+      "Upper Cargo Missed": {
+        "code": "tum",
+        "title": "Uppoer Cargo Missed",
+        "type": "counter"
+      },
       "Lower Cargo Scored": {
         "code": "tl",
         "title": "Lower Cargo Scored",
+        "type": "counter"
+      },
+      "Lower Cargo Missed": {
+        "code": "tlm",
+        "title": "Lower Cargo Missed",
         "type": "counter"
       },
       "Was Defended": {
@@ -205,11 +215,6 @@ var config_data = `{
         "title": "Yellow/Red Card",
         "type": "bool"
       },
-      "Make good alliance partner?": {
-        "code": "all",
-        "title": "Make good alliance partner?",
-        "type": "bool"
-      },
       "Comments": {
         "code": "co",
         "title": "Comments",
@@ -222,11 +227,9 @@ var config_data = `{
         "title": "Speed",
         "type": "radio",
         "choices": {
-          "vf": "Very Fast<br>",
           "f": "Fast<br>",
           "a": "Average<br>",
           "s": "Slow<br>",
-          "vs": "Very Slow"
         },
         "defaultValue": "a"
       }
