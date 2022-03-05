@@ -54,8 +54,7 @@ var config_data = `{
         "code": "t",
         "type": "team",
         "min": 1,
-        "max": 99999,
-        "defaultValue": "172"
+        "max": 99999
       },
       "Auto Start Position": {
         "code": "as",
@@ -112,9 +111,9 @@ var config_data = `{
         "title": "Was Defended",
         "type": "bool"
       },
-      "Wallbot?": {
+      "Shot from launchpad?": {
         "code": "wbt",
-        "title": "Wallbot?",
+        "title": "Shot from launchpad?",
         "type": "bool"
       },
       "Cargo Intake From": {
