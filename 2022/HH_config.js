@@ -71,7 +71,7 @@ var config_data = `{
       },
       "Upper Cargo Scored": {
         "code": "aton upper",
-        "title": "Uppoer Cargo Scored",
+        "title": "Upper Cargo Scored",
         "type": "counter"
       },
       "Lower Cargo Scored": {
@@ -79,7 +79,7 @@ var config_data = `{
         "title": "Lower Cargo Scored",
         "type": "counter"
       },
-      "Auto Aquired Cargo": {
+      "Auto Acquired Cargo": {
         "code": "auton got cargo",
         "title": "Picked up more cargo?",
         "type": "bool"
@@ -88,12 +88,12 @@ var config_data = `{
     "teleop": {
       "Upper Cargo Scored": {
         "code": "tele upper",
-        "title": "Uppoer Cargo Scored",
+        "title": "Upper Cargo Scored",
         "type": "counter"
       },
       "Upper Cargo Missed": {
         "code": "tele upper missed",
-        "title": "Uppoer Cargo Missed",
+        "title": "Upper Cargo Missed",
         "type": "counter"
       },
       "Lower Cargo Scored": {
@@ -107,7 +107,7 @@ var config_data = `{
         "type": "counter"
       },
       "Was Defended": {
-        "code": "was defened",
+        "code": "was defended",
         "title": "Was Defended",
         "type": "bool"
       },
@@ -170,7 +170,7 @@ var config_data = `{
         "type": "bool"
       },
       "Num of Robots Climbed": {
-        "code": "climers",
+        "code": "climbers",
         "title": "# of alliance bots climbed",
         "type": "counter"
       }
