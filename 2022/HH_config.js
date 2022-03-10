@@ -170,7 +170,7 @@ var config_data = `{
         "type": "bool"
       },
       "Num of Robots Climbed": {
-        "code": "climbers",
+        "code": "climers",
         "title": "# of alliance bots climbed",
         "type": "counter"
       }
