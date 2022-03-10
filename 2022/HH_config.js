@@ -57,7 +57,7 @@ var config_data = `{
         "max": 99999
       },
       "Auto Start Position": {
-        "code": "as",
+        "code": "start-pos",
         "title": "Auto Start Position",
         "type": "field_image",
         "filename": "2022/field_image.png"
@@ -65,59 +65,59 @@ var config_data = `{
     },
     "auton": {
       "Taxi": {
-        "code": "at",
+        "code": "taxi",
         "title": "Taxied?",
         "type": "bool"
       },
       "Upper Cargo Scored": {
-        "code": "au",
+        "code": "aton upper",
         "title": "Uppoer Cargo Scored",
         "type": "counter"
       },
       "Lower Cargo Scored": {
-        "code": "al",
+        "code": "aton lower",
         "title": "Lower Cargo Scored",
         "type": "counter"
       },
       "Auto Aquired Cargo": {
-        "code": "ac",
+        "code": "auton got cargo",
         "title": "Picked up more cargo?",
         "type": "bool"
       }
     },
     "teleop": {
       "Upper Cargo Scored": {
-        "code": "tu",
+        "code": "tele upper",
         "title": "Uppoer Cargo Scored",
         "type": "counter"
       },
       "Upper Cargo Missed": {
-        "code": "tum",
+        "code": "tele upper missed",
         "title": "Uppoer Cargo Missed",
         "type": "counter"
       },
       "Lower Cargo Scored": {
-        "code": "tl",
+        "code": "tele lower",
         "title": "Lower Cargo Scored",
         "type": "counter"
       },
       "Lower Cargo Missed": {
-        "code": "tlm",
+        "code": "tele lower missed",
         "title": "Lower Cargo Missed",
         "type": "counter"
       },
       "Was Defended": {
-        "code": "wd",
+        "code": "was defened",
         "title": "Was Defended",
         "type": "bool"
       },
       "Shot from launchpad?": {
-        "code": "wbt",
+        "code": "launchpad",
         "title": "Shot from launchpad?",
         "type": "bool"
       },
       "Cargo Intake From": {
-        "code": "cif",
+        "code": "cargo Intake",
         "title": "Cargo Intake From",
         "type": "radio",
         "choices": {
@@ -129,7 +129,7 @@ var config_data = `{
         "defaultValue": "x"
       },
       "Shooting Spot": {
-        "code": "ss",
+        "code": "shot-pos",
         "title": "Shooting Spot",
         "type": "field_image",
         "filename": "2022/field_image.png"
@@ -141,43 +141,43 @@ var config_data = `{
         "title": "Climb",
         "type": "radio",
         "choices": {
-          "1": "Low<br>",
-          "2": "Mid<br>",
-          "3": "High<br>",
-          "4": "Traversal<br>",
-          "a": "Attempted but failed<br>",
+          "l": "Low<br>",
+          "m": "Mid<br>",
+          "h": "High<br>",
+          "t": "Traversal<br>",
+          "f": "Attempted but failed<br>",
           "x": "Not attempted"
         },
         "defaultValue": "x"
       },
       "If climb failed,<br>Last successful rung,<br>if any": {
-        "code": "lsr",
+        "code": "last rung",
         "title": "If climb failed,<br>last successful rung,<br>if any",
         "type": "radio",
         "choices": {
-          "1": "Low<br>",
-          "2": "Mid<br>",
-          "3": "High<br>",
-          "4": "Traversal<br>",
-          "n": "No successful rung<br>",
+          "l": "Low<br>",
+          "m": "Mid<br>",
+          "h": "High<br>",
+          "t": "Traversal<br>",
+          "f": "No successful rung<br>",
           "x": "n/a"
         },
         "defaultValue": "x"
       },
       "Started Climb before Endgame": {
-        "code": "be",
+        "code": "early climb",
         "title": "Started climb before EndGame",
         "type": "bool"
       },
       "Num of Robots Climbed": {
-        "code": "cn",
+        "code": "climers",
         "title": "# of alliance bots climbed",
         "type": "counter"
       }
     },
     "postmatch": {
       "Driver Skill": {
-        "code": "ds",
+        "code": "driver skill",
         "title": "Driver Skill",
         "type": "radio",
         "choices": {
@@ -189,7 +189,7 @@ var config_data = `{
         "defaultValue": "x"
       },
       "Defense Rating": {
-        "code": "dr",
+        "code": "defense rating",
         "title": "Defense Rating",
         "type": "radio",
         "choices": {
@@ -201,22 +201,22 @@ var config_data = `{
         "defaultValue": "x"
       },
       "Shot enemy balls away?": {
-        "code": "ba",
+        "code": "enemy ball away",
         "title": "Shot enemy balls away?",
         "type": "bool"
       },
       "Died/Tipped": {
-        "code": "d",
+        "code": "died",
         "title": "Died/Tipped",
         "type": "bool"
       },
       "Card Foul": {
-        "code": "cf",
+        "code": "card foul",
         "title": "Yellow/Red Card",
         "type": "bool"
       },
       "Comments": {
-        "code": "co",
+        "code": "comments",
         "title": "Comments",
         "type": "text",
         "size": 15,
